@@ -10,7 +10,7 @@
   LaTeX template for your outstanding job application
 </p>
 <p align="center">
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+  <a href="CZhang666.github.io/files/CV.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
 
