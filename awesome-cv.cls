@@ -394,9 +394,9 @@
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
-% Others
-\newcommand{\acvSectionTopSkip}{-0.3mm}
-\newcommand{\acvSectionContentTopSkip}{2.3mm}
+% Main Line Space!
+\newcommand{\acvSectionTopSkip}{-1.9mm}
+\newcommand{\acvSectionContentTopSkip}{1.1mm}
 
 
 %-------------------------------------------------------------------------------
@@ -424,8 +424,8 @@
     \ifthenelse{\isundefined{\@photo}}{}{%
       \newlength{\photodim}
       \ifthenelse{\equal{\@photoshape}{circle}}%
-        {\setlength{\photodim}{1.3cm}}%
-        {\setlength{\photodim}{1.8cm}}%
+        {\setlength{\photodim}{1cm}}%
+        {\setlength{\photodim}{1cm}}%
       \ifthenelse{\equal{\@photoedge}{edge}}%
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
