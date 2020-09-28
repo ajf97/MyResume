@@ -1,0 +1,148 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=1.2cm, right=1.4cm, bottom=.8cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,right]{./profile.png}
+\name{Charles}{Zhang}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{1600 Grand Avenue, Saint Paul, MN}
+
+\mobile{(+1) 612-859-0081}
+\email{zzhang4@macalester.edu}
+\homepage{zcczhang.github.io}
+\github{zcczhang}
+\linkedin{charleszzz}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {January 29, 2020\\\\Esra Kadioglu Urtis}
+  {Professor\\Mathematics,Statistics, and Computer Science Department\\Macalester College\\Saint Paul, MN 55105}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+%\lettertitle{Application for Research: Adaptive Robot Navigation: Building Robots That Learn}
+
+% How the letter is opened
+\letteropening{\textbf{Dear Professor Kadioglu,}}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+% \letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[L]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+%   {\today}
+%   {Charles Zhang~~~·~~~Cover Letter}
+%   {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+\hyphenpenalty=5000
+\tolerance=1000
+\lettersection{About Me}
+I was thrilled to see your listing for the research: \textit{\textbf{Learning Based Area Coverage}} for Summer 2020. As a highly passionate Mathematics and Computer Science student at Macalester College with a solid background in mathematical modelling, programming, and data analysis, I am confident that I would be a strong addition to your team.
+
+\lettersection{Why This Research?}
+
+While competing in the Mathematical Contest of Modelling for drones light show, I was responsible for building mathematical models to determine the drones' locations and flight routes based on the configuration transformed by pictures using MATLAB and Python. Experience in this project allowed me to hone my modelling skills and the ability to present non-technical design to mathematical languages and programming. At that time, I was indulged in the beauty of combination among mathematics, computer programming, and piratical applications, so now I yearn for learning and then unveiling the much more impeccable system for the localization and coverage of drones in your research, improving my understanding of the deep learning and providing me experience for further study of artificial intelligence in graduate school in the future. 
+
+\lettersection{Why Me?}
+
+I am a self-motivated and fast learner. I love learning extra knowledge that I am interested in by myself. In the winter break, I learned machine learning and I won $13^{th}$ place out of 19526 teams and individuals(0.06\%) in Kaggle Data Science competition building models in Python for the prediction of house prices. I long for a deeper understanding of machine learning as well as deep learning and neural network, so I am learning OpenCV and Tensorflow in Python(R) now by myself. Therefore, I wish eagerly that I can have this opportunity working with your research to learn how to make modellings for robot path planning, coverage algorithms and reinforcement learning. I am not only a self-learner but also a born team player. In the last semester, I collaborated with two other students at Macalester College and won $9^{th}$ place in the Mathematical Association of America-North Central Section(MAA-NCS) Team Contest.
+
+
+
+
+
+ For your convenience, I have attached a resume that further outlines my relevant skill set, experience, and accomplishments. Thank you for your consideration, and I look forward to hearing from you soon!
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
